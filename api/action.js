@@ -5,7 +5,7 @@ export default function handler(req, res) {
         {
           version: 'vNext',
           image: 'https://placekitten.com/600/401',
-          postUrl: '/api/action',
+          postUrl: 'https://warpcast-mini-app-three.vercel.app/api/action',
           buttons: [{ label: 'Ещё раз 🔁' }]
         }
       ]
