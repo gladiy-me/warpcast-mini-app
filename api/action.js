@@ -4,8 +4,8 @@ export default function handler(req, res) {
       frames: [
         {
           version: 'vNext',
-          image: 'https://placekitten.com/600/401',
-          postUrl: 'https://warpcast-mini-app-three.vercel.app/api/action',
+          image: 'https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_960_720.jpg', // стабильная версия
+          postUrl: 'https://твой-проект.vercel.app/api/action',
           buttons: [{ label: 'Ещё раз 🔁' }]
         }
       ]
